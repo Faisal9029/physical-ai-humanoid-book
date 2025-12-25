@@ -1,55 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A -> 1.0.0
+Modified principles: None (new constitution)
+Added sections: All sections
+Removed sections: None
+Templates requiring updates: N/A
+Follow-up TODOs: None
+-->
+
+# AI/Spec-Driven Book Creation Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Authorial Integrity
+The book must reflect a clear, consistent voice and perspective, even when AI-assisted. All content must maintain coherent narrative thread and unified writing style throughout.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Structural Coherence
+Logical flow across chapters, with modular, reusable content architecture. Chapters and sections must interconnect logically while maintaining independence for reference use.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reader-First Clarity
+Concepts explained accessibly to a technical but non-expert audience (e.g., developers new to AI-native workflows). All explanations must be clear, jargon-free where possible, and include practical examples.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Open-Source Ethos
+All content, code, and assets must be openly licensed and reproducible. Documentation, code samples, and workflows must be accessible to all users without proprietary barriers.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Content Standards
 
-### [PRINCIPLE_6_NAME]
+### Format and Structure
+Content format: Markdown (compatible with Docusaurus v3). Documentation structure: Follow Docusaurus best practices (sidebar navigation, metadata, versioning-ready).
 
+### Code Examples
+Must be tested, minimal, and annotated; use real commands from Spec-Kit Plus & Claude Code. All code examples must be verified to work in the documented context.
 
-[PRINCIPLE__DESCRIPTION]
+### Writing Style
+Professional yet conversational; Flesch-Kincaid grade level 9–11. Language must be inclusive, technically accurate, and engaging for the target audience.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Licensing and Distribution
+Licensing: All content under MIT or Creative Commons BY 4.0. Version control: Every chapter and asset committed with semantic Git messages.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Development Workflow
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Content Creation Process
+All content follows spec-driven development methodology using Spec-Kit Plus and Claude Code tools. Each chapter or section begins with clear specifications before implementation.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Quality Assurance
+All content, workflows, and CLI snippets must be executable by readers. Every documented process must be tested and verified for reproducibility.
+
+### Deployment Standards
+Target deployment: GitHub Pages (via Docusaurus build). No external dependencies that break static site generation. No hardcoded secrets or user-specific paths in published content.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All development activities must comply with these constitutional principles. Changes to this constitution require explicit approval and documentation of the reasoning. Development teams must verify compliance with all principles during reviews and merge processes.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-21 | **Last Amended**: 2025-12-21
